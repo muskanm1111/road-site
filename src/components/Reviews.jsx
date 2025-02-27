@@ -22,7 +22,7 @@ const Reviews= () => {
 
   return (
     <div className="bg-yellow-50 py-16 p-4   ">
-      <h2 className="text-5xl font-bold text-center text-yellow-500 mb-10">
+      <h2 className="text-5xl font-bold text-center text-yellow-500 mb-16">
         What Our Clients Say
       </h2>
 
