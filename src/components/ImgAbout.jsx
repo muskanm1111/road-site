@@ -3,7 +3,7 @@ import { CircleCheckBig } from "lucide-react";
 function ImgAbout() {
   return (
     <div className="bg-yellow-50  py-24">
-      <h2 className="text-5xl font-bold text-center text-yellow-500 mb-8 ">
+      <h2 className="text-5xl font-bold text-center text-yellow-500 mb-14 ">
         About Us
       </h2>
       <div className="flex flex-wrap justify-start p-5 md:p-0">

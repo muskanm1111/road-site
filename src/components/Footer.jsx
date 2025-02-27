@@ -1,6 +1,6 @@
 
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-
+import logo from "./../assets/img/logo.webp";
 
 const Footer = () => {
   return (
@@ -12,15 +12,13 @@ const Footer = () => {
               href="#"
               className="flex items-center mb-4 w-full justify-center sm:justify-start"
             >
-              <div className="relative w-10 h-10 sm:w-12 sm:h-12">
+              <div className="flex items-center justify-center">
                 <img
-                  src="https://design1-lime.vercel.app/_next/image?url=%2Froad.png&w=2048&q=75"
-                  alt="Logo2"
+                  src={logo}
+                  className="w-[100px] md:w-[150px] object-cover bg-white p-2"
                 />
+                <span className="text-yellow-500 text-2xl font-bold"></span>
               </div>
-              <span className="text-xl sm:text-2xl font-bold ml-2 text-[var(--custom-500)]">
-                Road<span className="text-gray-200">Master</span>
-              </span>
             </a>
             <p className="text-sm sm:text-base text-gray-300">
               Leading provider of innovative road construction machinery and
@@ -51,9 +49,7 @@ const Footer = () => {
               {["Machine Sales", "Rentals", "Maintenance", "Training"].map(
                 (item) => (
                   <li key={item}>
-                    <a
-                      href={"#"}
-                    >
+                    <a href={"#"}>
                       <span className="text-sm sm:text-base text-gray-300 hover:text-[var(--custom-400)] transition duration-300 cursor-pointer">
                         {item}
                       </span>

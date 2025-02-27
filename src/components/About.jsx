@@ -28,8 +28,8 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-16 m-5 md:m-0">
-      <h2 className="text-5xl font-bold text-center text-yellow-600 mb-8">
+    <div className="bg-gray-50 py-24 m-5 md:m-0">
+      <h2 className="text-5xl font-bold text-center text-yellow-600 mb-14 ">
         Why Choose Us
       </h2>
       <div className="flex flex-wrap justify-center gap-8 ">
