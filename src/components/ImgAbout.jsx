@@ -2,7 +2,7 @@
 import { CircleCheckBig } from "lucide-react";
 function ImgAbout() {
   return (
-    <div className="bg-yellow-50  py-16 ">
+    <div className="bg-yellow-50  py-24">
       <h2 className="text-5xl font-bold text-center text-yellow-500 mb-8 ">
         About Us
       </h2>
@@ -42,7 +42,7 @@ function ImgAbout() {
                 Expert team of professionals
               </li>
             </ul>
-            <button className="px-9 py-2 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition duration-200 mx-8 mt-3">
+            <button className="px-9 py-3 bg-yellow-500 text-white  rounded-lg hover:bg-transparent border-2 hover:border-yellow-400 transition duration-200 mx-2 mt-8 hover:text-opacity-100 hover:text-yellow-400 text-[1.4rem]">
               Learn more
             </button>
           </p>

@@ -33,7 +33,7 @@ const menu=[
          
           </span>
         </div>
-        <div className="w-full md:w-1/4 flex items-center  justify-between ">
+        <div className="w-full md:w-1/4 flex items-center gap-10 justify-between  ">
           {menu.map((item) => (
             <HeaderITem key={item.name} name={item.name} />
           ))}
