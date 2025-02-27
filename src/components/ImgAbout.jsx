@@ -8,11 +8,11 @@ function ImgAbout() {
       </h2>
       <div className="flex flex-wrap justify-start p-5 md:p-0">
         <img
-          src="https://design1-lime.vercel.app/_next/image?url=https%3A%2F%2Fdmt55mxnkgbz2.cloudfront.net%2F1205x0_s3-57820-MNSW-171_22-LP-1_jpeg.jpg&w=640&q=75"
-          className="rounded-lg mx-auto w-[550px] h-80 justify-center text-center"
+          src="https://htmldemo.net/tm/simply/simply/images/latest-project/2.jpg"
+          className="rounded-lg mx-auto w-[550px] h-80 justify-center text-center hover:-translate-y-4 transition-transform duration-500"
         />
 
-        <div className=" md:w-1/2  text-start p-5 md:p-0 ">
+        <div className=" md:w-1/2  text-start p-5 md:p-0  ">
           <h3 className="text-4xl  text-gray-800 mb-2 ">
             Building Infrastructure, Connecting Industries
           </h3>

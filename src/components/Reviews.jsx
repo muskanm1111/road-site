@@ -26,11 +26,11 @@ const Reviews= () => {
         What Our Clients Say
       </h2>
 
-      <div className="flex flex-wrap justify-center gap-4 ">
+      <div className="flex flex-wrap justify-center gap-8 ">
         {fs.map((f, i) => (
           <div
             key={i}
-            className="w-full md:w-1/4 bg-white shadow-lg rounded-lg p-6 text-center"
+            className="w-full md:w-1/4 bg-white shadow-lg rounded-lg p-6 text-center  transform hover:scale-110 transition-transform duration-300 hover:bg-yellow-400 hover:bg-opacity-40 "
           >
             <div className="text-4xl text-yellow-500 mb-4">{f.icon}</div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
