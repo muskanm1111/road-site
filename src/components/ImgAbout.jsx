@@ -42,7 +42,7 @@ function ImgAbout() {
                 Expert team of professionals
               </li>
             </ul>
-            <button className="px-9 py-3 bg-yellow-500 text-white  rounded-lg hover:bg-transparent border-2 hover:border-yellow-400 transition duration-200 mx-2 mt-8 hover:text-opacity-100 hover:text-yellow-400 text-[1.4rem]">
+            <button className="px-9  py-2 bg-yellow-500 text-white  rounded-lg hover:bg-transparent border-2 hover:border-yellow-400 transition duration-200 mx-2 mt-8 hover:text-opacity-100 hover:text-yellow-400 text-[1.4rem]">
               Learn more
             </button>
           </p>
