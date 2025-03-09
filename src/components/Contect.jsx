@@ -21,12 +21,12 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <p className="text-gray-700">
-                  Plot No. 1, Sector 1, Rajapuri, New Delhi, India
+                  Plot No. 1, New Delhi, India
                 </p>
               </div>
 
               <div className="flex items-center space-x-4">
-                <p className="text-gray-700">+91 9810800000</p>
+                <p className="text-gray-700">+91 9001080000</p>
               </div>
 
               <div className="flex items-center space-x-4">
